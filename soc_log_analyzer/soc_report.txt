@@ -1,0 +1,50 @@
+SOC REPORT
+Generated: 2026-06-14
+By: Elieser
+
+=========================
+
+SUMMARY
+
+LOGIN_FAILED: 38
+LOGIN_SUCCESS: 27
+ACCOUNT_LOCKED: 11
+PASSWORD_CHANGED: 4
+
+TOTAL EVENTS: 80
+
+=========================
+
+SUSPICIOUS IPS ARE:
+
+203.0.113.45
+ATTEMPS:23
+RISK: HIGH RISK198.51.100.22
+ATTEMPS:13
+RISK: MEDIUM RISK
+
+=========================
+
+TOP ATTACKER:
+
+IP:
+203.0.113.45
+
+ATTEMPTS:
+23
+
+RISK:
+HIGH RISK
+
+=========================
+
+SOC RECOMMENDATIONS
+
+- Block 203.0.113.45
+- Monitor 198.51.100.22
+- Review account lockouts.
+- Investigate brute force attempts.
+
+=========================
+
+END OF REPORT
